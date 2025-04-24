@@ -1,0 +1,68 @@
+// style.css
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    background-color: #f3f3f3;
+}
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+input[type="file"], select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #218838;
+}
+#response {
+    margin-top: 15px;
+    font-weight: bold;
+}
+progress {
+    width: 100%;
+    margin-top: 10px;
+}
+.note {
+    display: block;
+    margin-top: 8px;
+    color: #666;
+    font-size: 12px;
+}
+#previewContainer {
+    margin-top: 20px;
+    text-align: center;
+}
+.preview-label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.original {
+    background-color: #d4edda;
+    color: #155724;
+}
+.fake {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+img.preview-img,
+video.preview-video {
+    max-width: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+}
